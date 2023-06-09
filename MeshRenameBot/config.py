@@ -10,12 +10,12 @@ except ImportError:
         BOT_TOKEN = [str, "6129167866:AAGIEh5O1Zgt_9GLRc3pmaUq6VYeVvTca5o"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
-        MAX_QUEUE_SIZE = [int, 25]
+        MAX_QUEUE_SIZE = [int, 5]
         SLEEP_SECS = [int, 0]
         IS_MONGO = [bool, False]
 
         # Access Restriction
-        IS_PRIVATE = [bool, True]
+        IS_PRIVATE = [bool, False]
         AUTH_USERS = [list,[5860097723]]
         OWNER_ID = [int, 5976553781]
 
