@@ -4,20 +4,20 @@ try:
     from .tconfig import Config
 except ImportError:
     class Config:
-        DATABASE_URL = [str, ""]
-        API_HASH = [str, "abcdedf......"]
-        API_ID = [int, 1234567]
-        BOT_TOKEN = [str, "bot:token here"]
+        DATABASE_URL = [str, "mongodb+srv://jairename:jairename@cluster0.a1rlm9j.mongodb.net/?retryWrites=true&w=majority"]
+        API_HASH = [str, "752a1fb86785c5bd35eb7b1e42071786"]
+        API_ID = [int, 25341724]
+        BOT_TOKEN = [str, "6129167866:AAGIEh5O1Zgt_9GLRc3pmaUq6VYeVvTca5o"]
         COMPLETED_STR = [str, "▰"]
         REMAINING_STR = [str, "▱"]
-        MAX_QUEUE_SIZE = [int, 5]
-        SLEEP_SECS = [int, 10]
+        MAX_QUEUE_SIZE = [int, 25]
+        SLEEP_SECS = [int, 0]
         IS_MONGO = [bool, False]
 
         # Access Restriction
-        IS_PRIVATE = [bool, False]
-        AUTH_USERS = [list,[123456789]]
-        OWNER_ID = [int, 0]
+        IS_PRIVATE = [bool, True]
+        AUTH_USERS = [list,[5860097723]]
+        OWNER_ID = [int, 5976553781]
 
         # Public username url or invite link of private chat
         FORCEJOIN = [str,""]
